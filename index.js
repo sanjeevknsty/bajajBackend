@@ -10,9 +10,9 @@ app.use(express.json())
 
 // console.log(authRoute)
 
-// app.get('/',(req,res)=>{
-//   res.send('Hello World')
-// })
+app.get('/',(req,res)=>{
+  res.send('Hello World')
+})
 
 
 app.use('/',require('./fetch.js'))
